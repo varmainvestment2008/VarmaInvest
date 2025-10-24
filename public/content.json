@@ -1,0 +1,151 @@
+{
+  "firmInfo": {
+    "name": "Varma Investments",
+    "tagline": "Your Trusted Partner in Wealth Creation",
+    "established": "2008",
+    "phone": "9403034505",
+    "email": "varmainvestment2008@gmail.com",
+    "address": {
+      "line1": "Shop number 5, Radhakrishna Vikhe Patil Complex",
+      "line2": "Chitali Road Rahata",
+      "city": "Rahata",
+      "district": "Ahilyanagar",
+      "pincode": "423107",
+      "mapUrl": "https://www.google.com/maps/embed?pb=1!1m18!1m12!1m3!1d3753.123!2d74.4789!3d19.7123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDQyJzQ0LjMiTiA3NMKwMjgnNDQuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+    }
+  },
+  "hero": {
+    "headline": "Build Your Financial Future with Confidence",
+    "subheadline": "Expert guidance in share market investments, mutual funds, and bonds. Serving investors across Rahata and Ahilyanagar since 2008.",
+    "ctaPrimary": "Book Free Consultation",
+    "ctaSecondary": "Explore Services"
+  },
+  "services": [
+    {
+      "id": "share-market",
+      "title": "Share Market Investments",
+      "description": "Strategic equity investment planning with comprehensive market analysis and portfolio management to maximize your returns.",
+      "icon": "TrendingUp",
+      "features": [
+        "Personalized stock recommendations",
+        "Market trend analysis",
+        "Portfolio diversification strategies",
+        "Real-time trading support"
+      ]
+    },
+    {
+      "id": "mutual-funds",
+      "title": "Mutual Funds",
+      "description": "Carefully curated mutual fund portfolios tailored to your financial goals, risk appetite, and investment horizon.",
+      "icon": "PieChart",
+      "features": [
+        "SIP planning and management",
+        "Fund selection guidance",
+        "Goal-based investing",
+        "Regular performance reviews"
+      ]
+    },
+    {
+      "id": "bonds",
+      "title": "Bond Investments",
+      "description": "Secure fixed-income investment options including government and corporate bonds for stable, predictable returns.",
+      "icon": "Shield",
+      "features": [
+        "Government securities",
+        "Corporate bonds",
+        "Fixed deposit alternatives",
+        "Risk-free investment options"
+      ]
+    }
+  ],
+  "whyChoose": [
+    {
+      "title": "16+ Years Experience",
+      "description": "Serving investors since 2008 with proven track record"
+    },
+    {
+      "title": "Personalized Approach",
+      "description": "Customized investment strategies for your unique goals"
+    },
+    {
+      "title": "Local Expertise",
+      "description": "Deep understanding of regional market dynamics"
+    },
+    {
+      "title": "Transparent Advice",
+      "description": "Clear, honest guidance with no hidden charges"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rajesh Patil",
+      "location": "Rahata",
+      "rating": 5,
+      "text": "Varma Investments helped me build a strong mutual fund portfolio. Their guidance has been invaluable in achieving my financial goals.",
+      "date": "2024-09"
+    },
+    {
+      "id": 2,
+      "name": "Priya Deshmukh",
+      "location": "Ahilyanagar",
+      "rating": 5,
+      "text": "Excellent service and professional advice. They take time to understand your needs and provide the best investment solutions.",
+      "date": "2024-08"
+    },
+    {
+      "id": 3,
+      "name": "Amit Sharma",
+      "location": "Rahata",
+      "rating": 5,
+      "text": "Very knowledgeable team. Their share market insights helped me make informed decisions and grow my wealth significantly.",
+      "date": "2024-10"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Kulkarni",
+      "location": "Sangamner",
+      "rating": 5,
+      "text": "Trustworthy advisors who genuinely care about their clients' financial well-being. Highly recommended for long-term investments.",
+      "date": "2024-07"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Jadhav",
+      "location": "Rahata",
+      "rating": 5,
+      "text": "Professional and reliable service. They explained complex investment concepts in simple terms and helped me start my SIP journey.",
+      "date": "2024-09"
+    },
+    {
+      "id": 6,
+      "name": "Meena Gaikwad",
+      "location": "Ahilyanagar",
+      "rating": 5,
+      "text": "Best investment advisors in the region. Their bond investment recommendations provided me with stable returns and peace of mind.",
+      "date": "2024-06"
+    }
+  ],
+  "process": [
+    {
+      "step": 1,
+      "title": "Initial Consultation",
+      "description": "Free consultation to understand your financial goals and risk profile"
+    },
+    {
+      "step": 2,
+      "title": "Investment Analysis",
+      "description": "Comprehensive analysis of investment opportunities tailored to your needs"
+    },
+    {
+      "step": 3,
+      "title": "Portfolio Planning",
+      "description": "Strategic portfolio construction with diversification across asset classes"
+    },
+    {
+      "step": 4,
+      "title": "Ongoing Support",
+      "description": "Regular monitoring, rebalancing, and guidance to keep you on track"
+    }
+  ]
+}
