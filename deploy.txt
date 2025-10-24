@@ -1,0 +1,41 @@
+To host your Varma Investments website on GoDaddy, you have a few options depending on your hosting plan:
+
+Option 1: GoDaddy VPS or Dedicated Server (Recommended for Node.js)
+If you have a VPS or Dedicated Server, follow these steps:
+
+1. Build the Production Version
+On your local computer, in the project folder:
+
+npm install
+npm run build
+2. Upload Files to GoDaddy
+Using FTP/SFTP (FileZilla, WinSCP, or cPanel File Manager):
+
+Upload the entire project folder to your server (e.g., /home/username/varma-investments/)
+3. Connect to Your Server via SSH
+Use PuTTY (Windows) or terminal (Linux) to connect:
+
+ssh username@your-server-ip
+4. Install Node.js on the Server
+# Check if Node.js is installed
+node --version
+# If not, install it (Ubuntu/Debian):
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
+5. Navigate to Your Project and Install Dependencies
+cd ~/varma-investments
+npm install --production
+6. Start the Application
+# Set the port (GoDaddy may require specific ports)
+export PORT=5000
+npm start
+7. Keep it Running with PM2
+# Install PM2 (process manager)
+sudo npm install -g pm2
+# Start your app
+pm2 start npm --name "varma-investments" -- start
+# Make it auto-start on reboot
+pm2 startup
+pm2 save
+8. Point Your Domain
+In GoDaddy's domain settings, point your domain to your server's IP address.
